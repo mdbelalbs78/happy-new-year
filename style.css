@@ -1,0 +1,17 @@
+.new-banner{
+    background-image: url('./image/Banner\ Image.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.banner-info{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.banner-party{
+    margin-bottom: -30px;
+}
