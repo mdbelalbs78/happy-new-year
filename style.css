@@ -1,9 +1,10 @@
-.new-banner{
+.new-banner {
     background-image: url('./image/Banner\ Image.png');
     height: 100vh;
     background-repeat: no-repeat;
 }
-.banner-info{
+
+.banner-info {
     height: 100%;
     display: flex;
     align-items: center;
@@ -12,21 +13,97 @@
     text-align: center;
     font-size: 30px;
 }
-.banner-party{
+
+.banner-party {
     margin-bottom: -30px;
 }
 
-.categore{
+.categore {
     text-align: center;
 }
-.categoreOff{
+
+.categoreOff {
     /* margin-top: 100px; */
     color: #FF0000;
     font-size: 70px;
     margin: 0;
 }
-.holidy{
+
+.holidy {
     color: #FF0000;
     margin: 0;
-    padding-bottom: 10px ;
+    padding-bottom: 10px;
+}
+
+.midnight {
+    background-image: url('./image/Vectorrr.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+
+}
+
+.midnight-party {
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    color: white;
+    font-size: 30px;
+
+}
+
+.welcome {
+    padding: 200px;
+}
+
+.parkHotel {
+    display: flex;
+    background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+    text-align: center;
+    height:300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.parkH{
+    margin:0px 10px 20px 0px;
+    
+}
+
+
+.parkHotel, p{
+    margin: 0;
+}
+
+
+.imageFlex{
+    display: flex;
+}
+
+.newslatter{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 100px 0px 100px 0px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.emilInput{
+    padding: 20px;
+    border-radius: 50px 0px 0px 50px;
+    width: 400px;
+    background: rgb(255, 255, 255);
+}
+.btn{
+    border: none;
+    color: white;
+    height: 60px;
+    width: 150px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    margin-left: -90px;
 }
