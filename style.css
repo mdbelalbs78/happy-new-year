@@ -1,3 +1,12 @@
+/* 
+* {box-sizing: border-box;
+padding: 0;
+margin: 0;
+} */
+/* *{
+    margin: 0;
+    
+} */
 .new-banner {
     background-image: url('./image/Banner\ Image.png');
     height: 100vh;
@@ -79,7 +88,50 @@
 
 .imageFlex{
     display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
 }
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+/* .imageHover:hover{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: white;
+}
+.overlay{
+    position:absolute;
+    
+} */
 
 .newslatter{
     border-radius: 16px;
@@ -151,4 +203,20 @@
     display: flex;
     justify-content: space-between;
     padding: 100px 180px 50px 140px;
+}
+
+
+.offer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bestOffer{
+    
+}
+.middleImage{
+    margin-right:110px;
+    margin-left: 70px;
 }
